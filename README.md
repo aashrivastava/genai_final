@@ -14,7 +14,7 @@ Note that all code except for that explicitly attributed to Anthropic is produce
 
 ## Setup
 
-1. Clone this repository
+1. Clone this repository and navigate to the project root
 2. Install dependencies:
 ```bash
 ./install.sh

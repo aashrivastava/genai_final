@@ -1,5 +1,7 @@
 # Modifying LLM Beliefs with Synthetic Document Finetuning 
 
+The `false-facts/` and `safety-tooling` directories are mostly attributed to Anthropic. My workflow and platform builds on top of the functionality provided by this code.
+
 ## Repository Structure
 
 - **universe_creation_streamlit/**: Contains the Streamlit application for generating universe contexts and belief evaluations.
@@ -48,7 +50,7 @@ The synthetic document generation module allows for the creation of documents ba
 
 ## Document Omission Step
 
-The omission step module allows you to selectively remove specific information from already-generated synthetic documents based on natural language instructions. This creates documents with intentional omissions that can be used to study information gaps or selective knowledge presentation.
+The omission step module allows you to selectively remove specific information from already-generated synthetic documents based on natural language instructions. This creates documents with intentional omissions that can be used to study information gaps or selective knowledge presentation. This omission step is novel and created by me.
 
 1. **Omit Information from Documents**:
    Use the `omission_step.py` script to process synthetic documents and omit specified content. The system uses two models: an omission model to perform the removal and a judge model to verify completeness.
