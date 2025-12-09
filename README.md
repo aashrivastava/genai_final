@@ -1,5 +1,7 @@
 # Generative AI Final Project - Fine-Tuning Platform and Workflow to Evaluate LLM Self-Awareness + Training Amplification
 
+Watch the demo video here: [https://go.screenpal.com/watch/cTlQYDnYIbF]
+
 This final project presents a workflow that enables:
 - The generation of synthetic documents on which to fine-tune LLMs on
 - The sending of fine-tuning jobs to both the OpenAI and TogetherAI APIs
