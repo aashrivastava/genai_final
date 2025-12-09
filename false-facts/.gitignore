@@ -1,0 +1,10 @@
+data
+.env
+.venv
+SECRETS
+**/*results*/**
+.vscode
+**/__pycache__
+false_facts.egg-info
+wandb
+logs/
